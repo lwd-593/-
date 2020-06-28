@@ -3,7 +3,6 @@ package com.enzenith.utils.image.gif;
 
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferByte;
-import java.io.*;
 
 /**
  * Class AnimatedGifEncoder - Encodes a gif file consisting of one or

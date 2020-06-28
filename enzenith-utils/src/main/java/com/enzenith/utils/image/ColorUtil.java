@@ -1,8 +1,5 @@
 package com.enzenith.utils.image;
 
-import java.awt.*;
-
-
 /**
  * 颜色相关的工具类
  * @author: Shupeng Lin

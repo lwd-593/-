@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.enzenith.test.mapper.UsercostMapper">
+  <resultMap id="BaseResultMap" type="com.enzenith.test.entity.Usercost">
+    <!--@mbg.generated-->
+    <!--@Table usercost-->
+    <id column="cost_id" jdbcType="VARCHAR" property="costId" />
+    <result column="cost_water" jdbcType="DOUBLE" property="costWater" />
+    <result column="cost_electricity" jdbcType="DOUBLE" property="costElectricity" />
+    <result column="cost_tenement" jdbcType="DOUBLE" property="costTenement" />
+    <result column="cost_announcement" jdbcType="DOUBLE" property="costAnnouncement" />
+    <result column="user_id" jdbcType="VARCHAR" property="userId" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    cost_id, cost_water, cost_electricity, cost_tenement, cost_announcement, user_id, 
+    create_time
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    <!--@mbg.generated-->
+    select 
+    <include refid="Base_Column_List" />
+    from usercost
+    where cost_id = #{costId,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    <!--@mbg.generated-->
+    delete from usercost
+    where cost_id = #{costId,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.enzenith.test.entity.Usercost">
+    <!--@mbg.generated-->
+    insert into usercost (cost_id, cost_water, cost_electricity, 
+      cost_tenement, cost_announcement, user_id, 
+      create_time)
+    values (#{costId,jdbcType=VARCHAR}, #{costWater,jdbcType=DOUBLE}, #{costElectricity,jdbcType=DOUBLE}, 
+      #{costTenement,jdbcType=DOUBLE}, #{costAnnouncement,jdbcType=DOUBLE}, #{userId,jdbcType=VARCHAR}, 
+      #{createTime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.enzenith.test.entity.Usercost">
+    <!--@mbg.generated-->
+    insert into usercost
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="costId != null">
+        cost_id,
+      </if>
+      <if test="costWater != null">
+        cost_water,
+      </if>
+      <if test="costElectricity != null">
+        cost_electricity,
+      </if>
+      <if test="costTenement != null">
+        cost_tenement,
+      </if>
+      <if test="costAnnouncement != null">
+        cost_announcement,
+      </if>
+      <if test="userId != null">
+        user_id,
+      </if>
+      <if test="createTime != null">
+        create_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="costId != null">
+        #{costId,jdbcType=VARCHAR},
+      </if>
+      <if test="costWater != null">
+        #{costWater,jdbcType=DOUBLE},
+      </if>
+      <if test="costElectricity != null">
+        #{costElectricity,jdbcType=DOUBLE},
+      </if>
+      <if test="costTenement != null">
+        #{costTenement,jdbcType=DOUBLE},
+      </if>
+      <if test="costAnnouncement != null">
+        #{costAnnouncement,jdbcType=DOUBLE},
+      </if>
+      <if test="userId != null">
+        #{userId,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.enzenith.test.entity.Usercost">
+    <!--@mbg.generated-->
+    update usercost
+    <set>
+      <if test="costWater != null">
+        cost_water = #{costWater,jdbcType=DOUBLE},
+      </if>
+      <if test="costElectricity != null">
+        cost_electricity = #{costElectricity,jdbcType=DOUBLE},
+      </if>
+      <if test="costTenement != null">
+        cost_tenement = #{costTenement,jdbcType=DOUBLE},
+      </if>
+      <if test="costAnnouncement != null">
+        cost_announcement = #{costAnnouncement,jdbcType=DOUBLE},
+      </if>
+      <if test="userId != null">
+        user_id = #{userId,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where cost_id = #{costId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.enzenith.test.entity.Usercost">
+    <!--@mbg.generated-->
+    update usercost
+    set cost_water = #{costWater,jdbcType=DOUBLE},
+      cost_electricity = #{costElectricity,jdbcType=DOUBLE},
+      cost_tenement = #{costTenement,jdbcType=DOUBLE},
+      cost_announcement = #{costAnnouncement,jdbcType=DOUBLE},
+      user_id = #{userId,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=TIMESTAMP}
+    where cost_id = #{costId,jdbcType=VARCHAR}
+  </update>
+</mapper>

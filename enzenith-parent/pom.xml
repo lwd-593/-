@@ -55,7 +55,7 @@
         <aliyun.core.version>4.0.6</aliyun.core.version>
         <aliyun.dysmsapi.version>1.1.0</aliyun.dysmsapi.version>
         <easypoi.version>4.1.0</easypoi.version>
-        <dom4j.version>2.1.0</dom4j.version>
+        <dom4j.version>2.1.3</dom4j.version>
         <weixin.java.miniapp.version>3.4.0</weixin.java.miniapp.version>
         <gexin-rp-sdk-http.version>4.1.0.4</gexin-rp-sdk-http.version>
         <gexin-rp-sdk-base.version>4.0.0.29</gexin-rp-sdk-base.version>

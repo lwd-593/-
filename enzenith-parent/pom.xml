@@ -32,7 +32,7 @@
         <commons.io.version>2.2</commons.io.version>
         <commons.net.version>3.3</commons.net.version>
         <commons.codec.version>1.8</commons.codec.version>
-        <commons.fileupload.version>1.3.1</commons.fileupload.version>
+        <commons.fileupload.version>1.3.3</commons.fileupload.version>
         <pinyin4j.version>2.5.0</pinyin4j.version>
         <jedis.version>2.9.0</jedis.version>
         <springfox.swagger2.version>2.9.2</springfox.swagger2.version>

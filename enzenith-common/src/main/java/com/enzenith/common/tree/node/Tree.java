@@ -1,7 +1,5 @@
 package com.enzenith.common.tree.node;
 
-import java.util.*;
-
 /**
  * 树
  * @title: Tree

@@ -1,12 +1,10 @@
 package com.enzenith.utils.image;
 
-import com.enzenith.utils.util.encrypt.Base64Ext;
 import com.enzenith.utils.image.gif.GifEncoder;
+import com.enzenith.utils.util.encrypt.Base64Ext;
 
 import javax.imageio.ImageIO;
-import java.awt.*;
 import java.awt.image.BufferedImage;
-import java.io.*;
 import java.util.Random;
 
 

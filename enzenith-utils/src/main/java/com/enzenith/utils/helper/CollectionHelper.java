@@ -6,8 +6,6 @@ import com.enzenith.utils.util.CheckUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.*;
-
 /**
  * 集合对象的一些助手工具类
  * @author: Shupeng Lin

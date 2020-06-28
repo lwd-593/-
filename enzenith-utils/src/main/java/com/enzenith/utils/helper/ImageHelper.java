@@ -3,7 +3,6 @@ package com.enzenith.utils.helper;
 import com.enzenith.utils.image.CaptchaUtil;
 
 import javax.imageio.ImageIO;
-import java.awt.*;
 import java.io.File;
 
 /**

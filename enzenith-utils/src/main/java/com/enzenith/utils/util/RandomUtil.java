@@ -1,8 +1,6 @@
 package com.enzenith.utils.util;
 
 
-import java.util.*;
-
 /**
  * 随机数
  * @author: Shupeng Lin

@@ -1,6 +1,6 @@
 package com.enzenith.utils.image;
 
-import java.awt.Color;
+import java.awt.*;
 
 
 /**

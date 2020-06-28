@@ -1,8 +1,5 @@
 package com.enzenith.utils.util;
 
-import java.io.*;
-
-
 /**
  *  流相关的操作方法封装
  * @author: Shupeng Lin

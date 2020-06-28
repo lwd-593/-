@@ -1,9 +1,9 @@
 package com.enzenith.common.ueditor.upload;
 
+import com.enzenith.common.file.HttpFileUtils;
 import com.enzenith.common.ueditor.define.AppInfo;
 import com.enzenith.common.ueditor.define.BaseState;
 import com.enzenith.common.ueditor.define.State;
-import com.enzenith.common.file.HttpFileUtils;
 import com.enzenith.utils.httpclient.exception.HttpProcessException;
 import org.apache.commons.io.FileUtils;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -11,7 +11,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
-import java.io.*;
 import java.util.Date;
 
 @Component

@@ -1,7 +1,7 @@
 package com.enzenith.utils.helper;
 
-import com.enzenith.utils.util.CheckUtil;
 import com.enzenith.utils.algorithm.impl.BCConvert;
+import com.enzenith.utils.util.CheckUtil;
 
 import java.math.BigDecimal;
 import java.text.DecimalFormat;

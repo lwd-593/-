@@ -2,8 +2,6 @@ package com.enzenith.common.ueditor.define;
 
 import com.enzenith.common.ueditor.Encoder;
 
-import java.util.*;
-
 
 /**
  * 多状态集合状态

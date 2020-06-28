@@ -6,7 +6,6 @@ import org.apache.http.conn.ssl.TrustSelfSignedStrategy;
 import org.apache.http.nio.conn.ssl.SSLIOSessionStrategy;
 import org.apache.http.ssl.SSLContexts;
 
-import javax.net.ssl.*;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

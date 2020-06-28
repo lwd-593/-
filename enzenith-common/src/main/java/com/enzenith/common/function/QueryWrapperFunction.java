@@ -3,18 +3,9 @@ package com.enzenith.common.function;/**
  * @date: 2019-11-13 14:54
  */
 
-import com.baomidou.mybatisplus.annotation.*;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.baomidou.mybatisplus.core.toolkit.TableNameParser;
-import com.baomidou.mybatisplus.core.toolkit.support.SFunction;
-import com.baomidou.mybatisplus.extension.api.R;
-import com.sun.org.apache.bcel.internal.generic.NEW;
-import net.sf.jsqlparser.schema.Column;
 
-
-import javax.swing.table.TableColumn;
 import java.lang.reflect.Field;
-import java.util.*;
 
 /**
  *QueryWrapper处理

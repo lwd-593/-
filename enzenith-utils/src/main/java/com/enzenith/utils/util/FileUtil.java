@@ -5,7 +5,7 @@ import org.springframework.web.multipart.MultipartFile;
 import sun.misc.BASE64Decoder;
 import sun.misc.BASE64Encoder;
 
-import java.io.*;
+import java.io.IOException;
 import java.math.BigInteger;
 import java.net.FileNameMap;
 import java.net.URLConnection;

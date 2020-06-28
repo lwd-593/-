@@ -9,7 +9,6 @@ import com.enzenith.utils.httpclient.exception.HttpProcessException;
 import org.apache.http.Header;
 import org.apache.http.client.HttpClient;
 
-import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;

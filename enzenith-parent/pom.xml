@@ -62,7 +62,7 @@
         <gexin-rp-sdk-template.version>4.0.0.23</gexin-rp-sdk-template.version>
         <gexin-rp-fastjson.version>1.0.0.2</gexin-rp-fastjson.version>
         <logback.version>1.2.3</logback.version>
-        <guava.version>28.1-jre</guava.version>
+        <guava.version>29.0-jre</guava.version>
         <thumbnailator.version>0.4.8</thumbnailator.version>
         <lombok.version>1.18.8</lombok.version>
         <artemis.http.client.version>1.1.2</artemis.http.client.version>

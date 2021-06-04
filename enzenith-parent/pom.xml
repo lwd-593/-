@@ -45,7 +45,7 @@
         <aspectjweaver.version>1.9.2</aspectjweaver.version>
         <aspectjtools.version>1.9.2</aspectjtools.version>
         <cglib.version>3.1</cglib.version>
-        <httpclient.version>4.5.6</httpclient.version>
+        <httpclient.version>4.5.13</httpclient.version>
         <httpmime.version>4.3.6</httpmime.version>
         <httpcore.version>4.4.6</httpcore.version>
         <httpasyncclient.version>4.1</httpasyncclient.version>

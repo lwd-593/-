@@ -39,7 +39,7 @@
         <springfox.swagger.ui.version>2.9.2</springfox.swagger.ui.version>
         <swagger.annotations.version>1.5.21</swagger.annotations.version>
         <swagger.models.version>1.5.21</swagger.models.version>
-        <fastjson.version>1.2.31</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <jackson.annotations.version>2.9.6</jackson.annotations.version>
         <aspectjrt.version>1.9.2</aspectjrt.version>
         <aspectjweaver.version>1.9.2</aspectjweaver.version>
